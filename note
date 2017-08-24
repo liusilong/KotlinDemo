@@ -1,0 +1,13 @@
+Kotlin笔记
+## 类（Class）
+1.kotlin中没有new关键字
+2.类的成员，可以包括
+    + 构造方法和init代码块
+    + 方法
+    + 属性
+    + 嵌套和内部类
+    + 对象声明
+## 继承（Inheritance）
+1.在kotlin中所有的类都默认继承类 Any
+2.Any类并不是 java.lang.Object ，但是里面包含： equals、hashCode、toString方法
+3.在final类中，也就是没有被open修饰的class；open关键字是被禁止的
